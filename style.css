@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+section{
+    padding: 100px 0px;
+}
+/* Typography */
+h1{
+    font-size: 77px;
+    line-height: 87px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 700;
+}
+h2{
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    color: #333;
+}
+h4{
+    font-size: 15px;
+    line-height: 22px;
+    color: #3b8df3;
+    margin-bottom: 10px;
+
+}
+p{
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #292929;
+}
+/* End Typography */
+
+
+/* Header Styling */
+header{
+    padding: 0px 100px;
+    background-color: #dbf4fe;
+}
+navbar{
+    padding: 0;
+}
+.navbar-nav .nav-link{
+    padding: 15px 30px !important;
+    color: #333;
+}
+.nvabar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-iocn{
+    height: auto;
+}
+
+
+@media (max-width:767px){
+    header{
+        padding: 0px 10px;
+    }
+}
+
+/* End Header */
+
+
+/* Banner Styling */
+.banner-txt{
+    display: flex;
+    align-items: center;
+}
+.theme-bg{
+    background-color: #dbf4fe;
+}
+.banner-txt h1{
+    font-size: 4.1vw;
+    line-height: calc(4.1vw+10px);
+    margin-bottom: 15px;
+}
+/* End Of Banner section */
+
+
+/* Modules Part */
+.title-text{
+    text-align: center !important;
+    margin-bottom: 50px;
+}
+.title-text p{
+    color: #3b8df3;
+    margin-bottom: 30px;
+}
+
+.box-module{
+    border: solid 1px #dbf4fe;
+    padding: 15px;
+    text-align: center;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-module i{
+    font-size: 45px;
+    color: #3b8df3;
+}
+.box-module h3{
+    margin: 30px 0px;
+}
+.cta-txt{
+    font-size: 15px;
+    color: #292929;
+}
+
+.cta-txt{
+    margin-top: 35px;
+}
+.cta-txt i{
+    font-size: 15px;
+    color: #292929;
+    text-decoration: none;
+}
+.cta-txt:hover{
+    text-decoration: none;
+    color: #292929;
+}
+/* End of Modules of Part */
+
+/* About us Section */
+
+.about-us{
+     background-color: #dbf4fe;
+
+}
+.para{
+    margin-top: 20px;
+}
+.para p{
+    font-size: 18px;
+}
+
+
+/* End About us   */
+
+
+/* Testimonial Start */
+.testimonial-card{
+    border: 2px solid #dbf4fe;
+    padding: 20px;
+    position: relative;
+}
+.quote-icon-left, .quote-icon-right{
+    position: absolute;
+    font-size: 45px;
+    color: #dbf4fe;
+}
+.quote-icon-left{
+    left: 20px;
+    top: 20px;
+}
+/* .testimonial-card:before{
+    content: "\f10d";
+    font-family: Arial, Helvetica, sans-serif;
+}
+.testimonial-card::after{
+    content: "\f10e";
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+.quote-icon-right{
+    right: 20px;
+    bottom: 20px;
+}
+.profile-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    overflow: hidden;
+}
+.testimonial-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+.rating i{
+    color: #ffba00;
+    margin-bottom: 20px;
+}
+/* End of Testimonials  */
+
+/* Footer Start */
+    footer{
+       background-color: #292929;
+    }
+    .footer-top{
+        padding: 80px 0px;
+    }
+    .footer-info{
+        padding: 30px 0px;
+        border-top: solid 1px #555c65;
+    }
+    .footer-info p{
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+ .link a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+ }
+
+
+
+
+
+
+/* End Of Footer */
+
+
+
+
+
+
+
+
+
